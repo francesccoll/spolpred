@@ -36,9 +36,10 @@ Default Value	Description
 ### 2.4 Output
 The text file output is expected to look like follows:
 
+```console
 sample.fastq	700377740003771	113 135 108 0 0 1 0 0 0 0 171 132 116 144 115 139 121 122 117 59 55 112 0 0 0 1 0 0 0 0 0 0 0 0 15 0 144 93 111 108 164 136 138	118 135 109 0 0 1 0 0 0 0 208 133 116 149 117 142 123 123 122 60 56 114 0 0 0 1 0 0 0 0 0 0 0 0 15 24 149 106 112 108 166 140 140
-	Sample name, octal code, read-spacer exact matches and read-spacer matches allowing up to one mismatch are printed separated by tabs.
-If the same output file name is specified in following runs, the new lines will be appended to the file
+```
+Sample name, octal code, read-spacer exact matches and read-spacer matches allowing up to one mismatch are printed separated by tabs. If the same output file name is specified in following runs, the new lines will be appended to the file
 
 ### 3.	Frequently asked questions.
 
